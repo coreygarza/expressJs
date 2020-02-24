@@ -7,4 +7,5 @@ let landing = require('../controllers/landing');
 //   res.render('index', { title: 'Landing Page by Corey' });
 // });
 router.get('/', landing.get_landing);
+router.post('/', landing.submitLead);
 module.exports = router;
